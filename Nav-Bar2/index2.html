@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beginner Friendly Web Page</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #6dd5fa, #2980b9);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(to right, white, rgba(139, 236, 236, 0.932));
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+    }
+    h1{
+  font-size: 3rem;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6dd5fa, #2980b9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+h2 {
+  font-size: 3rem;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #50bb3a, #2980b9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+    header h1 {
+      color: #2980b9;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #2980b9;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #1b4f72;
+    }
+
+    /* Hero section */
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(to right, #74ebd5, #ACB6E5);
+      color: #fff;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .hero a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #2980b9;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .hero a:hover {
+      background: #1b4f72;
+    }
+
+    /* Content section */
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #2980b9;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    /* Footer */
+    footer {
+      background: #2980b9;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>My Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero section -->
+  <section class="hero">
+    <h2>Welcome To My Website</h2>
+    <p>A simple, beginner-friendly web page made with only HTML and CSS.</p>
+    <a href="#">Get Started</a>
+  </section>
+
+  <!-- Content cards -->
+  <section class="container">
+    <div class="card">
+      <h3>About Us</h3>
+      <p>We provide helpful resources for learning web development step by step.</p>
+    </div>
+    <div class="card">
+      <h3>Services</h3>
+      <p>From tutorials to projects, explore our beginner-friendly guides.</p>
+    </div>
+    <div class="card">
+      <h3>Contact</h3>
+      <p>Reach us anytime via email or social media. We'd love to hear from you.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Website | Built with ❤️ using HTML & CSS</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms</a></p>
+  </footer>
+
+</body>
+</html>

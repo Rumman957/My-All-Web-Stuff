@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f5f5f5;
+
+        }
+
+        /* header */
+        header {
+            background-color: #283C4F;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        header h1 {
+            text-align: center;
+        }
+
+        nav p {
+            text-align: center;
+        }
+
+        /* main title */
+        .main-title {
+            text-align: center;
+            font-size: x-large;
+            font-weight: 700;
+            color: #283C4F;
+        }
+
+        /* layout */
+        .container {
+            display: flex;
+            background-color: white;
+           width: 100%;
+
+        }
+
+        /* left aside */
+        .aside-left {
+            width: 225px;
+            border: 1px solid #dcd2d2;
+            height: 400px;
+            border-right: 0;
+            box-sizing: border-box;
+            color: rgb(95, 87, 87);
+        }
+
+        .aside-left div {
+            margin-left: -10px;
+            padding: 15px;
+        }
+
+        .aside-left h3 {
+            margin-left: 25px;
+            color: #283C4F;
+            font-size: larger;
+        }
+
+        .aside-left ul {
+            font-size: 15px;
+        }
+
+        /* center section */
+        section {
+            border: 1px solid #dcd2d2;
+            width: 800px;
+            box-sizing: border-box;
+            padding-left: 10px;
+            padding-right: 10px;
+            color: rgb(95, 87, 87);
+        }
+
+        section h3 {
+            color: #283C4F;
+            font-size: larger;
+        }
+
+        .link {
+            color: #55ACE3;
+        }
+
+        /* right aside */
+        .aside-right {
+            width: 180px;
+            border: 1px solid #dcd2d2;
+            height: 400px;
+            border-right: 0;
+            color: rgb(95, 87, 87);
+        }
+
+        .aside-right div {
+            margin-left: -10px;
+            padding-right: 0;
+        }
+
+        .aside-right h3 {
+            margin-left: 25px;
+            color: #283C4F;
+            font-size: larger;
+        }
+
+        .aside-right ul p {
+            font-size: 15px;
+            margin-left: -5px;
+        }
+
+        .title2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: #283C4F;
+        }
+
+        .reviews {
+            display: flex;
+            background-color: white;
+            color: rgb(95, 87, 87);
+            margin: 20px;
+        }
+
+        .reviews .one p {
+            position: relative;
+            top: -15px;
+
+        }
+
+        .one,
+        .two,
+        .three {
+            border: 1px solid #dcd2d2;
+        }
+
+        .two {
+            border-left: 0;
+            border-right: 0;
+        }
+
+        .reviews div {
+            padding: 15px;
+            padding-left: 30px;
+        }
+
+        footer {
+            background-color: #283C4F;
+            color: rgb(194, 183, 183);
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div>
+            <h1>M. Rumman</h1>
+            <nav>
+                <p>Home | Projects | Blogs | Contact</p>
+            </nav>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <p class="main-title">Web Developer and Designer</p>
+
+        <div class="container">
+
+            <!-- aside -->
+            <aside class="aside-left">
+                <div>
+                    <h3>Portfolio <br>Highlights</h3>
+                    <ul>
+                        <li>Responsive HTML Layout</li>
+                        <li>E-commerce Storefont</li>
+                        <li>Interactive Form Design</li>
+                        <li>Event Countdown Widget</li>
+                        <li>Prototype Landing Pages</li>
+                    </ul>
+                </div>
+            </aside>
+
+            <section>
+                <div>
+                    <h3>Career Achievments</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corporis consectetur voluptates
+                        dolore saepe fuga.</p>
+                    <p class="link">View my LinkedIn Profile</p>
+                </div>
+
+                <div>
+                    <h3>Community Involvement</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corporis consectetur voluptates
+                        dolore saepe fuga.</p>
+                    <p class="link">Visit my GitHub</p>
+                </div>
+            </section>
+
+            <!-- aside -->
+            <aside class="aside-right">
+                <div>
+                    <h3>Academic<br>Qualifications</h3>
+
+
+                    <ul>
+                        <p>BTech(Computer Science) from ABC University</p>
+                        <p>Specialization</p>
+                        <li>System Analysis</li>
+                        <li>Advanced JS Techniquest</li>
+                        <li>Web Accessibility Standard</li>
+                        <li>Cloud Computing</li>
+                        <li>Advanced Algorithms</li>
+                    </ul>
+                </div>
+            </aside>
+
+        </div>
+        <p class="title2">Peer Reviews</p>
+        <div class="reviews">
+            <div class="one">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quibusdam amet ex veritatis asperiores
+                    sed assumenda? Officiis odio aliquid veritatis.</p>
+            </div>
+            <div class="two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quibusdam amet ex veritatis
+                asperiores sed assumenda? Officiis odio aliquid veritatis</div>
+            <div class="three">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quibusdam amet ex
+                veritatis asperiores sed assumenda? Officiis odio aliquid veritatis</div>
+        </div>
+        <footer>
+            <p>&copy; [2026] All Rights Reserved</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>

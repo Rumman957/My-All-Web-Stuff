@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+:root{
+    --color: #98CB00;
+}
+
+.head {
+    width: 365px;
+    height: 170px;
+    background-color: var(--color);
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.eyes {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: white;
+    position: absolute;
+}
+
+.e1 {
+    left: 70px;
+}
+
+.e2 {
+    right: 70px;
+}
+
+.e1,.e2 {
+    top: 80px;
+}
+
+.antenna{
+    width: 10px;
+    height: 70px;
+    background:var(--color) ;
+    position: absolute;
+    border-radius: 10px;
+}
+.a1{
+    left: 70px;
+    top: -30px;
+    transform: rotate(-25deg);
+}
+.a2{
+    right: 70px;
+    top: -32px;
+     transform: rotate(25deg);
+}
+.body{
+    width: 365px;
+    height: 350px;
+    background-color: var(--color);
+    margin-top: 20px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+}
+.legs{
+    width: 350px; height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.leg1,.leg2{
+    width: 60px;
+    background-color: var(--color);
+    position: relative;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    }
+.leg1{
+    left: 60px;
+}
+.leg2{
+    right: 45px;
+}
+.arm1,.arm2{
+
+    width: 60px;
+    height: 200px;
+    background-color:var(--color);
+    position:absolute;
+    border-radius: 50px;
+    
+}
+.main{
+    position: relative;
+    margin-top: 30px;
+   
+}
+
+.arm1{
+    left: 381px;
+    top: 187px;
+}
+.arm2{
+    right: 381px;
+    top: 187px;
+}

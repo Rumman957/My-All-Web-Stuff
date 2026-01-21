@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+
+nav {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.container {
+    background-color: #1f1f1f;
+    height: auto;
+    width: 350px;
+    padding: 18px 40px;
+    border-radius: 12px;
+    margin-top: 100px;
+    /* filter: blur(1px); */
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+#profile {
+    border-radius: 100%;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h2 {
+    color: #ace224;
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+    font-family: monospace;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+ul li {
+    background-color: #333;
+    margin: 15px 0;
+    padding: 10px 20px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: relative;
+
+}
+
+ul li:hover {
+    color: #ace224;
+    transform: scale(1.1);
+    /* transform: rotate(360deg); */
+}
+
+ul li img {
+    object-fit: cover;
+    width: 120px;
+    position: absolute;
+    top: -100px;
+    left: -150px;
+    z-index: 10;
+    border: 1px solid white;
+    border-radius: 7px;
+    display: none;
+}
+
+ul li:hover img {
+    display: block;
+}
+.alps, .enemies{
+margin-top: 40px;
+text-align: center;
+
+}
+
+
+/* FOR DARK MODE */
+body.light{
+    background-color: white;
+}
+body.light nav{
+    background-color: rgb(216, 215, 215);
+    color: black;
+    border: 1px solid black;
+    box-shadow: 2px 4px 8px 0px rgb(141, 141, 141);
+}
+body.light .container{
+background-color: rgb(216, 215, 215);
+color: black;
+
+}
+body.light .container ul li{
+    background-color: rgb(202, 199, 199);
+}
+body.light .container h2{
+    color: #82a133;
+}
+body.light .container ul li:hover {
+    color: white;
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: #56B8E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+span {
+    font-size: 100px;
+    font-family: sans-serif;
+    color: #35A8F9;
+    font-weight: 700;
+
+}
+
+.ps {
+    border: 1px solid;
+    padding: 30px;
+    background-color: #09263F;
+    border-radius: 30px;
+}
