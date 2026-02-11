@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent {
+    width: 300px;
+    min-height: 600px;
+    border: 1px solid black;
+    border-radius: 50px;
+    outline: 2px solid #b2a99f;
+    background: #6B6764;
+background: linear-gradient(182deg, rgba(107, 103, 100, 1) 43%, rgba(46, 45, 43, 1) 100%);
+/* box-shadow: 0 5px 20px 20px grey; */
+box-shadow: 0 17px 100px 0px grey;
+}
+.camera{
+    width: 130px;
+    height: 130px;
+     outline: 2px solid #8C8885;
+     /* border: 2px solid rgb(42, 42, 42); */
+    border-radius: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+    overflow: hidden;
+    position: relative;
+    background-color: #242321;
+}
+.cam{
+    width: 45px;
+    height: 45px;
+    border: 2px solid #8C8885;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    background-color: #060606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cam div{
+    width:25px ;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #161922;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cam div div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0a2243;
+}
+.cam2{
+    bottom: 10px;
+}
+.cam3{
+    right:10px ;
+    top: 28px;
+}
+.light{
+    background-color: #A5A4A2;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.light div{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #ECE3D8;
+}
+.sensor{
+    background-color: #171716;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+}
+img{
+    margin-inline: 80px;
+    margin-top: 55px;
+}
